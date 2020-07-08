@@ -7,10 +7,10 @@ jobs:
 steps:
   - checkout
 
-  - run
+  - run:
       name: Greeting
       command : echo Hello World
 
-  - run
+  - run:
       name: Print the current time
       command : date
