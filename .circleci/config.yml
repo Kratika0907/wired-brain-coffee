@@ -9,7 +9,7 @@ steps:
 
   - run
       name: Greeting
-      command : Hello World
+      command : echo Hello World
 
   - run
       name: Print the current time
